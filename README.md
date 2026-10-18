@@ -18,17 +18,20 @@ The [Continuous Thought Machine](https://github.com/SakanaAI/continuous-thought-
 
 | Path | What it is |
 |---|---|
-| [`notebooks/ctm_reproduce_imagenet_1000cls.ipynb`](notebooks/ctm_reproduce_imagenet_1000cls.ipynb) | Everything on ImageNet: all figures, Tables 1, 3 and 4, the ImageNet row of Table 2, and every number in the text. Official checkpoint, **no training**. |
-| [`notebooks/ctm_reproduce_mnist_cifar.ipynb`](notebooks/ctm_reproduce_mnist_cifar.ipynb) | §8 (smaller models): trains D = 128 CTMs on MNIST and CIFAR-10 (three seeds each) and reproduces the MNIST and CIFAR rows of Table 2. |
+| [`notebooks/ctm_reproduce_imagenet_1000cls.ipynb`](notebooks/ctm_reproduce_imagenet_1000cls.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/THANNAGA/ctm-fixed-point-curve/blob/main/notebooks/ctm_reproduce_imagenet_1000cls.ipynb) | Everything on ImageNet: all figures, Tables 1, 3 and 4, the ImageNet row of Table 2, and every number in the text. Official checkpoint, **no training**. |
+| [`notebooks/ctm_reproduce_mnist_cifar.ipynb`](notebooks/ctm_reproduce_mnist_cifar.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/THANNAGA/ctm-fixed-point-curve/blob/main/notebooks/ctm_reproduce_mnist_cifar.ipynb) | §8 (smaller models): trains D = 128 CTMs on MNIST and CIFAR-10 (three seeds each) and reproduces the MNIST and CIFAR rows of Table 2. |
 | [`poster/`](poster) | The NeurReps 2026 poster. |
 
 Each notebook opens with a table mapping every paper figure and table to the cell that produces it. Cells are tagged by paper section (`[3.1]`, `[B.2]`, …), and figures are saved under their paper numbers (`fig2_…`, `fig3_…`).
 
 ## Running the notebooks
 
-Both notebooks are written for **Google Colab** with Google Drive mounted. Open them in Colab:
-[ImageNet](https://colab.research.google.com/github/THANNAGA/ctm-fixed-point-curve/blob/main/notebooks/ctm_reproduce_imagenet_1000cls.ipynb) ·
-[MNIST / CIFAR](https://colab.research.google.com/github/THANNAGA/ctm-fixed-point-curve/blob/main/notebooks/ctm_reproduce_mnist_cifar.ipynb)
+Both notebooks are written for **Google Colab** with Google Drive mounted.
+
+| Notebook | |
+|---|---|
+| ImageNet | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/THANNAGA/ctm-fixed-point-curve/blob/main/notebooks/ctm_reproduce_imagenet_1000cls.ipynb) |
+| MNIST / CIFAR | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/THANNAGA/ctm-fixed-point-curve/blob/main/notebooks/ctm_reproduce_mnist_cifar.ipynb) |
 
 **ImageNet notebook.**
 - **GPU:** an A100 (40 GB or more) is recommended.
